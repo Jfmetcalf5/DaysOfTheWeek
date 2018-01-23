@@ -9,7 +9,7 @@
 import UIKit
 
 class DaysOfTheWeekViewController: UIViewController {
-
+    
     var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
     
     @IBOutlet weak var daysOfTheWeekTableView: UITableView!
@@ -21,17 +21,24 @@ class DaysOfTheWeekViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
+    
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        // Check  ID
+        if segue.identifier == "toDayDetailVC" {
+            // Get the destination
+            guard let destinationVC = segue.destination as? DayDetailViewController else { return }
+            // Get the selected day
+            if let selectedDay = daysOfTheWeekTableView.indexPathForSelectedRow {
+                // Get the day indexPath
+                let day = daysOfTheWeek[selectedDay.row]
+                // Pass the selected day to the detailedVC
+                destinationVC.day = day
+            }
+        }
     }
-    */
-
 }
 
 

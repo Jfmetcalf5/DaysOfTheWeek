@@ -12,6 +12,7 @@
 		3BCDB0242017A30E006D40B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDB0232017A30E006D40B0 /* Assets.xcassets */; };
 		3BCDB0272017A30E006D40B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDB0252017A30E006D40B0 /* LaunchScreen.storyboard */; };
 		3BCDB02F2017A7A4006D40B0 /* DaysOfTheWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDB02E2017A7A4006D40B0 /* DaysOfTheWeekViewController.swift */; };
+		3BCDB0312017AE95006D40B0 /* DayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDB0302017AE95006D40B0 /* DayDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3BCDB0262017A30E006D40B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BCDB0282017A30E006D40B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BCDB02E2017A7A4006D40B0 /* DaysOfTheWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfTheWeekViewController.swift; sourceTree = "<group>"; };
+		3BCDB0302017AE95006D40B0 /* DayDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				3BCDB01C2017A30E006D40B0 /* AppDelegate.swift */,
 				3BCDB0202017A30E006D40B0 /* Main.storyboard */,
 				3BCDB02E2017A7A4006D40B0 /* DaysOfTheWeekViewController.swift */,
+				3BCDB0302017AE95006D40B0 /* DayDetailViewController.swift */,
 				3BCDB0232017A30E006D40B0 /* Assets.xcassets */,
 				3BCDB0252017A30E006D40B0 /* LaunchScreen.storyboard */,
 				3BCDB0282017A30E006D40B0 /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BCDB0312017AE95006D40B0 /* DayDetailViewController.swift in Sources */,
 				3BCDB02F2017A7A4006D40B0 /* DaysOfTheWeekViewController.swift in Sources */,
 				3BCDB01D2017A30E006D40B0 /* AppDelegate.swift in Sources */,
 			);
