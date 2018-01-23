@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		3BCDB01D2017A30E006D40B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDB01C2017A30E006D40B0 /* AppDelegate.swift */; };
-		3BCDB01F2017A30E006D40B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDB01E2017A30E006D40B0 /* ViewController.swift */; };
 		3BCDB0222017A30E006D40B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDB0202017A30E006D40B0 /* Main.storyboard */; };
 		3BCDB0242017A30E006D40B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDB0232017A30E006D40B0 /* Assets.xcassets */; };
 		3BCDB0272017A30E006D40B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDB0252017A30E006D40B0 /* LaunchScreen.storyboard */; };
+		3BCDB02F2017A7A4006D40B0 /* DaysOfTheWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDB02E2017A7A4006D40B0 /* DaysOfTheWeekViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3BCDB0192017A30E006D40B0 /* DaysOfTheWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaysOfTheWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BCDB01C2017A30E006D40B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3BCDB01E2017A30E006D40B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BCDB0212017A30E006D40B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BCDB0232017A30E006D40B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BCDB0262017A30E006D40B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BCDB0282017A30E006D40B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BCDB02E2017A7A4006D40B0 /* DaysOfTheWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfTheWeekViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				3BCDB01C2017A30E006D40B0 /* AppDelegate.swift */,
-				3BCDB01E2017A30E006D40B0 /* ViewController.swift */,
 				3BCDB0202017A30E006D40B0 /* Main.storyboard */,
+				3BCDB02E2017A7A4006D40B0 /* DaysOfTheWeekViewController.swift */,
 				3BCDB0232017A30E006D40B0 /* Assets.xcassets */,
 				3BCDB0252017A30E006D40B0 /* LaunchScreen.storyboard */,
 				3BCDB0282017A30E006D40B0 /* Info.plist */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BCDB01F2017A30E006D40B0 /* ViewController.swift in Sources */,
+				3BCDB02F2017A7A4006D40B0 /* DaysOfTheWeekViewController.swift in Sources */,
 				3BCDB01D2017A30E006D40B0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
